@@ -1,0 +1,608 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+
+    <meta charset="UTF-8">
+
+    <meta name="viewport"
+    content="width=device-width, initial-scale=1.0">
+
+    <title>Invitación de Boda</title>
+
+    <!-- GOOGLE FONTS -->
+
+    <link rel="preconnect"
+    href="https://fonts.googleapis.com">
+
+    <link rel="preconnect"
+    href="https://fonts.gstatic.com"
+    crossorigin>
+
+    <link href="https://fonts.googleapis.com/css2?family=Great+Vibes&display=swap"
+    rel="stylesheet">
+
+    <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@300;400;500;600&display=swap"
+    rel="stylesheet">
+
+    <!-- FONT AWESOME -->
+
+    <link rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+
+    <!-- CSS -->
+
+    <link rel="stylesheet"
+    href="css/styles.css">
+
+</head>
+
+<body>
+
+    <!-- PARTÍCULAS -->
+
+    <div class="particles"></div>
+
+    <!-- PÉTALOS -->
+
+    <div class="petals"></div>
+
+    <!-- ========================= -->
+    <!-- MODAL MÚSICA -->
+    <!-- ========================= -->
+
+    <div class="music-modal" id="musicModal">
+
+        <div class="music-card">
+
+            <div class="music-icon">
+
+                <i class="fa-solid fa-music"></i>
+
+            </div>
+
+            <h2>
+                Bienvenidos
+            </h2>
+
+            <p>
+                Activa la música y disfruta
+                nuestra invitación
+            </p>
+
+            <button id="playMusic">
+
+                <i class="fa-solid fa-heart"></i>
+
+                Entrar
+
+            </button>
+
+        </div>
+
+    </div>
+
+    <!-- BOTÓN MÚSICA -->
+
+    <button class="music-control"
+    id="musicControl">
+
+        <i class="fa-solid fa-pause"></i>
+
+    </button>
+
+    <!-- ========================= -->
+    <!-- HERO -->
+    <!-- ========================= -->
+
+    <header class="hero">
+
+        <div class="hero-content">
+
+            <p class="save-date">
+                10 · OCTUBRE · 2026
+            </p>
+
+            <h1>
+                Sergio <span>&</span> Marisa
+            </h1>
+
+            <p class="hero-text">
+                Ser profundamente querido por alguien, te da fortaleza <br>y querer profundamente a alguien,  te da valor.
+            </p>
+
+        </div>
+
+    </header>
+
+    <!-- ========================= -->
+    <!-- COUNTDOWN -->
+    <!-- ========================= -->
+
+    <section class="countdown-section reveal">
+
+        <div class="section-title">
+
+            <p class="mini-title">
+                Nuestro gran día
+            </p>
+
+            <h2>
+                Falta Muy Poco
+            </h2>
+
+        </div>
+
+        <div class="countdown-container">
+
+            <div class="countdown-box">
+
+                <span id="days">00</span>
+
+                <p>Días</p>
+
+            </div>
+
+            <div class="countdown-box">
+
+                <span id="hours">00</span>
+
+                <p>Horas</p>
+
+            </div>
+
+            <div class="countdown-box">
+
+                <span id="minutes">00</span>
+
+                <p>Minutos</p>
+
+            </div>
+
+            <div class="countdown-box">
+
+                <span id="seconds">00</span>
+
+                <p>Segundos</p>
+
+            </div>
+
+        </div>
+
+    </section>
+
+    <!-- ========================= -->
+    <!-- SLIDER -->
+    <!-- ========================= -->
+
+    <section class="cinematic-slider reveal">
+
+        <div class="section-title">
+
+            <p class="mini-title">
+                Nuestra Historia
+            </p>
+
+            <h2>
+                Momentos Especiales
+            </h2>
+
+        </div>
+
+        <div class="slider-container">
+
+            <!-- SLIDE 1 -->
+
+            <div class="slide active">
+
+                <img src="assets/img/image1.png"
+                alt="Foto 1">
+
+                <div class="slide-overlay"></div>
+
+            </div>
+
+            <!-- SLIDE 2 -->
+
+            <div class="slide">
+
+                <img src="assets/img/image2.png"
+                alt="Foto 2">
+
+                <div class="slide-overlay"></div>
+
+            </div>
+
+            <!-- SLIDE 3 -->
+
+            <div class="slide">
+
+                <img src="assets/img/image3.jpg"
+                alt="Foto 3">
+
+                <div class="slide-overlay"></div>
+
+            </div>
+
+            <!-- SLIDE 4 -->
+
+            <div class="slide">
+
+                <img src="assets/img/image4.jpg"
+                alt="Foto 4">
+
+                <div class="slide-overlay"></div>
+
+            </div>
+
+            <!-- BOTONES -->
+
+            <button class="slider-btn prev">
+
+                <i class="fa-solid fa-chevron-left"></i>
+
+            </button>
+
+            <button class="slider-btn next">
+
+                <i class="fa-solid fa-chevron-right"></i>
+
+            </button>
+
+        </div>
+
+    </section>
+
+    <!-- ========================= -->
+    <!-- PADRES -->
+    <!-- ========================= -->
+
+    <section class="parents-section reveal">
+
+        <div class="parents-container">
+
+            <p class="mini-title">
+                CON LA BENDICIÓN DE NUESTROS PADRES
+            </p>
+
+            <div class="parents-grid">
+
+                <!-- NOVIA -->
+
+                <div class="parent-card">
+
+                    <div class="parent-icon">
+
+                        <img src="assets/icons/novia.png"
+                        alt="Novia">
+
+                    </div>
+
+                    <h3>
+                        Papás de la Novia
+                    </h3>
+
+                    <p>
+                        César Rodrigo Chavira Escárcega
+                    </p>
+
+                    <p>
+                        Virginia Delgado Irigoyen
+                    </p>
+
+                </div>
+
+                <!-- NOVIO -->
+
+                <div class="parent-card">
+
+                    <div class="parent-icon">
+
+                        <img src="assets/icons/novio.png"
+                        alt="Novio">
+
+                    </div>
+
+                    <h3>
+                        Madre del Novio
+                    </h3>
+
+
+                    <p>
+                        Carmen Chavira García ✞
+                    </p>
+
+                </div>
+
+            </div>
+
+            <!-- DECORACIÓN -->
+
+            <div class="parents-divider">
+
+                <span></span>
+
+                <i class="fa-solid fa-heart"></i>
+
+                <span></span>
+
+            </div>
+
+        </div>
+
+    </section>
+
+    <!-- ========================= -->
+    <!-- RECEPCIÓN -->
+    <!-- ========================= -->
+
+    <section class="reception-section reveal">
+
+        <div class="section-title">
+
+            <p class="mini-title">
+                Recepción
+            </p>
+
+            <h2>
+                Celebremos Toda la Noche
+            </h2>
+
+        </div>
+
+        <div class="reception-card">
+
+            <!-- INFO -->
+
+            <div class="reception-info">
+
+                <div class="reception-icon">
+
+                    <img src="assets/icons/copas.png"
+                    alt="Recepción">
+
+                </div>
+
+                <h3>
+                    Granja El Güero
+                </h3>
+
+                <p>
+                    C. 79a. 9604-9606 Aeropuerto, 31384 Chihuahua, Chih.
+                </p>
+
+                <div class="reception-time">
+
+                    <i class="fa-regular fa-clock"></i>
+
+                    19:00 Horas - 00:00 Horas
+
+                </div>
+
+                <a href="https://maps.app.goo.gl/iKGMGcihc3q1Pe6H6"
+                target="_blank"
+                class="location-btn">
+
+                    <i class="fa-solid fa-location-dot"></i>
+
+                    Ver Ubicación
+
+                </a>
+
+            </div>
+
+            <!-- IMAGEN -->
+
+            <div class="reception-image">
+
+                <img src="assets/icons/salon.jpg"
+                alt="Recepción">
+
+            </div>
+
+        </div>
+
+    </section>
+
+    <!-- ========================= -->
+    <!-- DRESS CODE -->
+    <!-- ========================= -->
+
+    <section class="dress-section reveal">
+
+        <div class="section-title">
+
+            <p class="mini-title">
+                Dress Code
+            </p>
+
+            <h2>
+                Semi formal
+            </h2>
+
+            <p class="mini-title2">
+                Nuestro código es semi-formal, pero nuestra prioridad es tu comodidad. Ven con tu mejor estilo y prepárate para disfrutar."
+            </p>
+
+        </div>
+
+        <div class="dress-container">
+
+            <!-- HOMBRES -->
+
+            <div class="dress-card">
+
+                <div class="dress-icon">
+
+                    <img src="assets/icons/traje.png"
+                    alt="Hombre">
+
+                </div>
+
+                <h3>
+                    Caballeros
+                </h3>
+
+                <p>
+                    Traje formal en tonos oscuros
+                    o neutros.
+                </p>
+
+            </div>
+
+            <!-- MUJERES -->
+
+            <div class="dress-card">
+
+                <div class="dress-icon">
+
+                    <img src="assets/icons/vestido.png"
+                    alt="Mujer">
+
+                </div>
+
+                <h3>
+                    Damas
+                </h3>
+
+                <p>
+                    Vestido elegante.
+                    Evitar color blanco.
+                </p>
+
+            </div>
+
+        </div>
+
+    </section>
+
+    <!-- ========================= -->
+<!-- REGALOS -->
+<!-- ========================= -->
+
+<section class="gift-section reveal">
+
+    <div class="gift-card">
+
+        <div class="gift-icon">
+
+            <i class="fa-solid fa-gift"></i>
+
+        </div>
+
+        <p class="mini-title">
+            OPCIÓN DE REGALO
+        </p>
+
+        <h2>
+            Tu Presencia es el Mejor Regalo
+        </h2>
+
+        <p class="gift-text">
+
+            El mejor regalo es compartir este día tan especial contigo.  
+            Pero si deseas tener un detalle con nosotros…
+
+        </p>
+
+        <div class="gift-message">
+
+            “Si el sobre no pesa,  
+            ¡que sea por amor! 🤍”
+
+        </div>
+
+    </div>
+
+</section>
+
+    <!-- ========================= -->
+    <!-- CONFIRMACIÓN -->
+    <!-- ========================= -->
+
+    <section class="confirmation-section reveal">
+
+        <div class="confirmation-card">
+
+            <p class="mini-title">
+                Confirmación
+            </p>
+
+            <h2>
+                ¿Nos Acompañas?
+            </h2>
+
+            <p class="confirmation-text">
+
+                Será un honor compartir este momento
+                tan especial contigo.
+
+                Por favor confirma tu asistencia.
+
+            </p>
+
+<div class="confirmation-buttons">
+
+    <!-- NOVIO -->
+
+    <a href="https://wa.me/526141995738?text=Hola,%20confirmo%20mi%20asistencia%20a%20su%20boda.%20✨"
+    target="_blank"
+    class="whatsapp-btn novio-btn">
+
+        <i class="fa-brands fa-whatsapp"></i>
+
+        Confirmar con el Novio
+
+    </a>
+
+    <!-- NOVIA -->
+
+    <a href="https://wa.me/526142167596?text=Hola,%20confirmo%20mi%20asistencia%20a%20su%20boda.%20✨"
+    target="_blank"
+    class="whatsapp-btn novia-btn">
+
+        <i class="fa-brands fa-whatsapp"></i>
+
+        Confirmar con la Novia
+
+    </a>
+
+</div>
+
+        </div>
+
+    </section>
+
+    <!-- ========================= -->
+    <!-- FOOTER -->
+    <!-- ========================= -->
+
+    <footer class="footer-section">
+
+        <div class="footer-content">
+
+            <p class="footer-phrase">
+
+                “Después de un tiempo, sólo quieres estar junto a quién te haga reír.”
+
+            </p>
+
+            <h2>
+                Sergio & Marisa
+            </h2>
+
+            <span>
+                10 · OCTUBRE · 2026
+            </span>
+
+        </div>
+
+    </footer>
+
+    <!-- JAVASCRIPT -->
+
+    <script src="js/app.js"></script>
+
+</body>
+
+</html>
